@@ -1,6 +1,6 @@
 {
-  "name": "@storybook/addon-backgrounds",
-  "version": "3.3.0-alpha.6",
+  "name": "@nlabs/storybook-addon-backgrounds",
+  "version": "3.4.3",
   "description": "A storybook addon to show different backgrounds for your preview",
   "keywords": [
     "addon",
@@ -8,16 +8,16 @@
     "react",
     "storybook"
   ],
-  "homepage": "https://storybook.js.org",
+  "homepage": "https://nitrogenlabs.com",
   "bugs": {
-    "url": "https://github.com/storybooks/storybook/issues"
+    "url": "https://github.com/nitrogenlabs/storybook/issues"
   },
   "license": "MIT",
   "author": "jbaxleyiii",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybooks/storybook.git"
+    "url": "https://github.com/nitrogenlabs/storybook.git"
   },
   "scripts": {
     "prepare": "node ../../scripts/prepare.js"
@@ -26,7 +26,7 @@
     "prop-types": "^15.6.0"
   },
   "peerDependencies": {
-    "@storybook/addons": "^3.3.0-alpha.6",
+    "@nlabs/storybook-addons": "^3.3.0",
     "react": "*"
   }
 }

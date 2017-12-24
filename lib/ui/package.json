@@ -1,12 +1,12 @@
 {
-  "name": "@storybook/ui",
-  "version": "3.3.0-alpha.6",
+  "name": "@nlabs/storybook-ui",
+  "version": "3.4.3",
   "description": "Core Storybook UI",
   "license": "MIT",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybooks/storybook.git"
+    "url": "https://github.com/nitrogenlabs/storybook.git"
   },
   "scripts": {
     "prepare": "node ../../scripts/prepare.js",
@@ -14,9 +14,9 @@
     "storybook": "start-storybook -p 9010"
   },
   "dependencies": {
-    "@storybook/components": "^3.3.0-alpha.6",
-    "@storybook/mantra-core": "^1.7.2",
-    "@storybook/react-komposer": "^2.0.3",
+    "@nlabs/storybook-components": "^3.4.3",
+    "@nlabs/storybook-mantra-core": "^1.7.2",
+    "@nlabs/storybook-react-komposer": "^2.0.3",
     "babel-runtime": "^6.26.0",
     "deep-equal": "^1.0.1",
     "events": "^1.1.1",
@@ -43,7 +43,7 @@
     "react-dom": "*"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.3.0-alpha.6",
-    "@storybook/react": "^3.3.0-alpha.6"
+    "@nlabs/storybook-addon-actions": "^3.4.3",
+    "@nlabs/storybook-react": "^3.4.3"
   }
 }

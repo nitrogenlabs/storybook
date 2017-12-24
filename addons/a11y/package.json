@@ -1,6 +1,6 @@
 {
-  "name": "@storybook/addon-a11y",
-  "version": "3.3.0-alpha.6",
+  "name": "@nlabs/storybook-addon-a11y",
+  "version": "3.4.3",
   "description": "a11y addon for storybook",
   "keywords": [
     "a11y",
@@ -10,26 +10,26 @@
     "valid",
     "verify"
   ],
-  "homepage": "https://github.com/storybooks/storybook#readme",
+  "homepage": "https://github.com/nitrogenlabs/storybook#readme",
   "bugs": {
-    "url": "https://github.com/storybooks/storybook/issues"
+    "url": "https://github.com/nitrogenlabs/storybook/issues"
   },
   "license": "MIT",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/storybooks/storybook.git"
+    "url": "git+https://github.com/nitrogenlabs/storybook.git"
   },
   "scripts": {
     "prepare": "node ../../scripts/prepare.js"
   },
   "dependencies": {
-    "@storybook/components": "^3.3.0-alpha.6",
+    "@nlabs/storybook-components": "^3.4.3",
     "axe-core": "^2.6.0",
     "prop-types": "^15.6.0"
   },
   "peerDependencies": {
-    "@storybook/addons": "^3.3.0-alpha.6",
+    "@nlabs/storybook-addons": "^3.3.0",
     "react": "*",
     "react-dom": "*"
   }

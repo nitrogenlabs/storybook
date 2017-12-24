@@ -1,12 +1,12 @@
 {
-  "name": "@storybook/codemod",
-  "version": "3.3.0-alpha.6",
+  "name": "@nlabs/storybook-codemod",
+  "version": "3.4.3",
   "description": "A collection of codemod scripts written with JSCodeshift",
   "license": "MIT",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybooks/storybook.git"
+    "url": "https://github.com/nitrogenlabs/storybook.git"
   },
   "scripts": {
     "prepare": "node ../../scripts/prepare.js"
